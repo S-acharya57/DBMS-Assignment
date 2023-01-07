@@ -263,7 +263,7 @@ where company_name = 'Hardman';
 
 -- 3. c. Give all managers of First Bank Corporation a 10 percent raise.
 
--- 3. b. solution: 
+-- 3. c. solution: 
 
 update tbl_Works
 set salary = 1.1*salary
