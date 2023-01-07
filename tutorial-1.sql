@@ -97,6 +97,13 @@ select employee_name from tbl_Works where company_name = 'Hardman';
 
 select * from tbl_Employee join tbl_Company where tbl_Company.company_name = 'Hardman';
 
+
+
+-- 2. c Find the names, street addresses and cities of residence of all employees who work for First Bank Corporation and earn more than 10,000. 
+
+-- solution: 
+	select employee_name from tbl_Works where company_name = 'Hardman' and salary > 10000;
+    
 -- 2. d. Find all employees in the database who live in the same cities as the companies for which they work. 
 
 -- 2. d. Solution 
